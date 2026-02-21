@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
 
       <div className={styles.content}>
-        <p className={`section-label ${styles.label}`}>Wedding Planner · Ciudad de México</p>
+        <p className={`section-label ${styles.label}`}>Wedding Planner · Culiacán, Sinaloa</p>
 
         <h1 className={styles.title}>
           Tu historia de amor,
@@ -40,4 +40,5 @@ export default function Hero() {
       </div>
     </section>
   )
+
 }
