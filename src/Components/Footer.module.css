@@ -1,0 +1,63 @@
+.footer {
+  background: var(--charcoal);
+  border-top: 1px solid rgba(196,169,107,0.12);
+  padding: 2.5rem clamp(1.5rem, 6vw, 5rem);
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo { display: flex; align-items: baseline; gap: 0.1em; }
+
+.logoR {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--gold);
+}
+
+.logoText {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--cream);
+  letter-spacing: 0.1em;
+}
+
+.logoSub {
+  font-family: var(--font-body);
+  font-weight: 200;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(250,247,242,0.35);
+  margin-left: 0.8rem;
+}
+
+.copy {
+  font-family: var(--font-body);
+  font-weight: 200;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  color: rgba(250,247,242,0.35);
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials a {
+  color: rgba(250,247,242,0.4);
+  transition: color 0.3s;
+}
+
+.socials a:hover { color: var(--gold); }
